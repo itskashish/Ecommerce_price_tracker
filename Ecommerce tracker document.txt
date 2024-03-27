@@ -1,0 +1,43 @@
+                                Project Title: E-commerce Price Tracker
+
+
+1. Introduction
+The E-commerce Price Tracker project aims to develop a price tracking application that monitors product prices on e-commerce websites and sends price drop notifications to users via email. This document serves as documentation and a project report outlining the project's purpose, methodology, implementation details, and results.
+
+2. Objective
+The primary objective of the project is to track prices of products on e-commerce websites and notify users when there is a price drop. The key features include:
+
+Fetching product prices from the Myntra website
+Simulating price changes
+Sending email notifications for price drops
+3. Methodology
+The project utilizes web scraping techniques to fetch product prices from the Myntra website. The main steps involved in the methodology are as follows:
+
+Fetching product information from the Myntra website using BeautifulSoup and requests library.
+Simulating price changes for demonstration purposes.
+Sending email notifications for price drops using the smtplib library.
+4. Implementation Details
+4.1. Dependencies
+Python 3.x
+BeautifulSoup
+requests
+smtplib
+4.2. Code Structure
+The project consists of the following main components:
+
+fetch_products_from_url(url): Function to fetch product information from the Myntra website.
+fetch_current_price(product_name): Function to simulate fetching the current price of a product.
+send_email_notification(product_name, current_price): Function to send email notifications for price drops.
+track_prices(url): Main function to track prices and execute the monitoring process.
+4.3. Usage
+To use the project, follow these steps:
+
+Clone the project repository.
+Install the required dependencies (BeautifulSoup, requests, smtplib).
+Run the main script price_tracker.py.
+Monitor the console output for price drop notifications.
+5. Results
+The project successfully tracks product prices on the Myntra website and sends email notifications for price drops. The implementation demonstrates the feasibility of price tracking applications using web scraping techniques.
+
+6. Conclusion
+The E-commerce Price Tracker project provides a simple yet effective solution for monitoring product prices on e-commerce websites. Future enhancements may include adding support for additional e-commerce platforms, refining notification mechanisms, and improving user interface.
